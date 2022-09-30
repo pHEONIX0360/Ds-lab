@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+
+
+void main()
+{
+int n,i,j,num,c=0,count=0;
+count++;
+printf("Enter the limit of the array\n");
+count++;
+scanf("%d",&n);
+count++;
+int a[n];
+count++;
+printf("Enter the elements of the array\n");
+count++;
+for(i=0;i<n;i++)
+{
+count++;
+scanf("%d",&a[i]);
+count++;
+}
+count++;
+printf("Enter the element to be searched\n");
+count++;
+scanf("%d",&num);
+count++;
+for(i=0;i<n;i++)
+{
+count++;
+if(a[i]==num)
+{
+count++;
+c=1;
+count++;
+printf("Element found at index %d",i);
+count++;
+}
+count++;
+}
+count++;
+if (c==0)
+{
+count++;
+printf("Element not found \n");
+count++;
+}
+count++;
+printf("Time complexity of linearsearch =%d \n",++count);
+printf("Space complexity of linearsearch = 4n+24 ");
+}
