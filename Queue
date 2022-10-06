@@ -1,0 +1,39 @@
+PROGRAM
+#include stdio.h> #define MAX 5
+int front=-1;
+int rear=-1;
+void enqueue(int[l);
+void dequeue(int[D):
+void display(int[]);
+int main()
+int queue[MAX].front=-1,rear=-1,0ption;
+do
+printf("inChoose your option:-In");
+printf("1.Enqueueln2.Dequeueln3.Displayln4.Exitln"); scanf"%d",&option);
+if(option==1}X enqueue(queue);
+else if(option==2)X dequeue(queue);
+else iffoption==3){ display(queue);
+elsef
+while(option!=4); return 0;
+void enqueue(int queu [MAX]K int value;
+if(rear>=MAX-1X printf("Queue is fullin");
+else if(rear=E-1 && front==-1{ front=0;
+rear=0;
+
+ printf("Enter the elementin");
+scanf("%d",&value); queue[rear]=value;
+else reart+;
+printf('Enter the elementin");
+scanf("%d",&value); queuefrear]=value;
+display(queue);
+void dequeue(int queue[MAX]){X if (front>rear || front==-1){
+printf "Queue is emptyln");
+else
+printf "Deleting
+front+; display(queue);
+element = %din",queue[front]);
+void display(int queue[MAX]X
+int i;
+printf("Your Queue isin");
+fori=front;i<=rear;i++{ printfprintf("%d ".queue[i]):
+}
