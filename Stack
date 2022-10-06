@@ -1,0 +1,32 @@
+#include stdio.h> #define MAX5
+int i,top=-1;
+void push(int[]); void popint[);
+int main(
+int myStack[MAX],option;
+dof
+printf("lnininChoose your optionin");
+printf("1.Push Operationln2.Pop Operationln3.Exitin");
+scanf(%d",&option); if(option=1){
+push(myStack);
+else if(option==2X pop(myStack);
+else printf"lnThank u");
+while(option==1||option==2); return 0;
+void pushint stackArray[MAX]}{
+if(top==MAX-1){ printf"Stack is fulln");
+elsef
+top=top+1;
+printf("Enter the valueln");
+scanf("%d",&stackArray[top]); printf("Your Stack:-In");
+
+ for(i=0;i<=top;i++{
+printf("%d ",stackArray[il);
+void popint stackArray[MAX]}X
+if(top<0
+printf("Stack is emptyln");
+else
+printf"InDeleting element
+top=top-1;
+printf("Your Stack- In");
+%din",stackArray[top]);
+for(i=0;i<=top;i+*}
+printf(%d ",stackArray[i]);
